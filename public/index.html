@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="output-style.css" rel="stylesheet">
+    <title>Chat Tailwind</title>
+</head>
+<body class="bg-white ">
+    <div class="flex flex-col items-center justify-center w-screen min-h-screen  font-mono ">
+        <div class="flex flex-col w-1/3 flex-grow overflow-auto h-0 bg-[#F5F5F5]">
+
+        <div class="bg-slate-500 text-white text-center py-4 text-xl">Chat App</div>
+            <!-- Message boxes container-->
+        <div class="flex flex-col  flex-grow w-full shadow-x1 overflow-hidden px-6 ">
+
+
+          <!-- Message -->
+        <div class="flex w-full mt-2 space-x-3 ml-auto justify-end text-white">
+            <div>
+                <div class="bg-[#5CA6FA] p-3 rounded-xl rounded-br-sm">
+                    <p class="text-sm">Hello Vaiya, How's going?</p>
+                    <span class="text-xs leading-none">3 min ago</span>
+                </div>
+            </div>
+            <div class="flex-shrink-0 h-10 w-10 rounded-full bg-gray-300"></div>
+        </div>
+
+          <!-- Message -->
+          <div class="flex w-full mt-2 space-x-3 ml-auto justify-start ">
+            <div class="flex-shrink-0 h-10 w-10 rounded-full bg-gray-300"></div>
+            <div>
+                <div class="bg-[#C6F8E5]  text-black p-3 rounded-xl rounded-bl-sm">
+                    <p class="text-sm">Going good. Tell me about the junior part. Are you enjoying?</p>
+                    <span class="text-xs text-black leading-none">3 min ago</span>
+                </div>
+            </div>
+        </div>
+
+         <!-- Message -->
+         <div class="flex w-full mt-2 space-x-3 ml-auto justify-end  text-white">
+            <div>
+                <div class="bg-[#5CA6FA] p-3 rounded-xl rounded-br-sm">
+                    <p class="text-sm">Yes vaiya! A lot. I'm enjoying it a lot. But vaiya, I need a break for my family events. My cousin is going to get married next week....</p>
+                    <span class="text-xs leading-none">3 min ago</span>
+                </div>
+            </div>
+            <div class="flex-shrink-0 h-10 w-10 rounded-full bg-gray-300"></div>
+        </div>
+
+          <!-- Message -->
+          <div class="flex w-full mt-2 space-x-3 ml-auto justify-start ">
+            <div class="flex-shrink-0 h-10 w-10 rounded-full bg-gray-300"></div>
+            <div>
+                <div class="bg-[#C6F8E5]  text-black p-3 rounded-xl rounded-bl-sm">
+                    <p class="text-sm">Everyone should have the freedom of speech. You can send me messages here, but I'm not gonna reply on this anymore...</p>
+                    <span class="text-xs text-black leading-none">3 min ago</span>
+                </div>
+            </div>
+        </div>
+
+         <!-- Message -->
+         <div class="flex w-full mt-2 space-x-3 ml-auto justify-end  text-white">
+            <div>
+                <div class="bg-[#5CA6FA] p-3 rounded-xl rounded-br-sm">
+                    <p class="text-sm">Okay vaiya, I don't need any break....</p>
+                    <span class="text-xs leading-none">3 min ago</span>
+                </div>
+            </div>
+            <div class="flex-shrink-0 h-10 w-10 rounded-full bg-gray-300"></div>
+        </div>
+
+          <!-- Message -->
+          <div class="flex w-full mt-2 space-x-3 ml-auto justify-start ">
+            <div class="flex-shrink-0 h-10 w-10 rounded-full bg-gray-300"></div>
+            <div>
+                <div class="bg-[#C6F8E5]  text-black p-3 rounded-xl rounded-bl-sm">
+                    <p class="text-sm">Good good!</p>
+                    <span class="text-xs text-black leading-none">2 min ago</span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+        <!-- Input field -->
+        <div class="input flex gap-x-1 bg-gray-300 p-4 justify-between rounded-t-xl" >
+            <input class="text h-10 w-full rounded-3xl px-3 text-sm " placeholder="Type a message">
+            <button class="send-button px-4 rounded">
+                <i id="chat-icon" style="color: rgb(11, 17, 20);" class="fa fa-fw fa-send"></i>
+            </button>
+        </div>
+
+
+        </div>
+        
+
+
+    </div>
+</body>
+</html>
